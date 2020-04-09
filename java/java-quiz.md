@@ -3,14 +3,14 @@ Java Assessment
 
 #### Q1. Given the string "strawberries" saved in a variable called fruit, what would "fruit.substring(2, 5)" return?
 - rawb
-- raw
+- raw ----Correct
 - awb
 - traw
 
 #### Q2. How can you achieve runtime polymorphism in Java?
 - method overloading 
 - method overrunning 
-- method overriding 
+- method overriding ----Correct
 - method calling 
 
 #### Q3. Given the following definitions, which of these expression will NOT evaluate to true?
@@ -18,12 +18,12 @@ Java Assessment
 int i1 = 1, i2 = 2;`
 
 - (i1 | i2) == 3
-- i2 & b1
-- b1 | !b2
-- (i1 ^ i2) < 4
+- i2 & b1 ----Correct
+- b1 | !b2 
+- (i1 ^ i2) < 4 
 
 #### Q4. What can you use to create new instances in Java?
-- constructor
+- constructor ----Correct
 - another instance
 - field
 - private method
@@ -39,8 +39,8 @@ int i1 = 1, i2 = 2;`
   }
 }
 ```
-- It will not compile because of line 4.
-- It will not compile because of line 3.
+- It will not compile because of line 4. 
+- It will not compile because of line 3. ----Correct
 - 123
 - 1234
 
@@ -68,7 +68,7 @@ System.out.println(str);
 ```
 - CD
 - CDE
-- D
+- D ----Correct
 - "abcde"
 
 #### Q8. What is the result of this code?
@@ -87,7 +87,7 @@ System.out.println(str);
 12: }
 ```
 - It will show a stack trace with a runtime exception.
-- "java.lang.Exception"
+- "java.lang.Exception".  ----Correct
 - It will run and throw an exception.
 - It will not compile.
 
@@ -134,6 +134,7 @@ String m = "Hello world!";
 String n = m.substring(6,12) + m.substring(12,6);
 System.out.println(n);
 
+------It will not execute!!
 
 #### Q11. What is the output of this code?
 How do you write a foreeach loop that will iterate over ArrayList<Pencil>pencilCase?
